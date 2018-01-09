@@ -1,0 +1,5 @@
+.background {
+  background: radial-gradient(circle , #FCFBED, #FFFED1);
+  height: 100vh;
+  width: 100vw;
+}
