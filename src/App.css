@@ -1,3 +1,17 @@
-.container {
-	background: red;
+.one {
+  background: linear-gradient(to bottom left , #93E2EF, #6EABB4);
+  top: 60vh;
+  left: 45vw;
+}
+
+.two {
+  background: linear-gradient(to bottom , #FEC7CA, #E5B2B5);
+  top: 60vh;
+  left: 50vw;
+}
+
+.three {
+  background: linear-gradient(to bottom right , #FF8D9A, #DC7A86);
+  top: 60vh;
+  left: 55vw;
 }

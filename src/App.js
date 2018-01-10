@@ -1,19 +1,24 @@
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
-// import { Match } from 'react-router'
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 import 'normalize.css'
 
-// import styles from './App.css'
+import styles from './App.css'
 import Background from './components/Background/background'
-// import Circles from './components/Circles/circles'
-// import Tabone from './components/Tabone/tabone'
+import Circle from './components/Circles/circles'
 
 const App = () => (
-  <BrowserRouter>
+  <Router>
     <div>
       <Background />
+      <Circle customStyles={styles.one} />
+      <Circle customStyles={styles.two} />
+      <Circle customStyles={styles.three} />
     </div>
-  </BrowserRouter>
+  </Router>
 )
 
 export default App
