@@ -5,20 +5,15 @@ import 'normalize.css'
 
 // import styles from './App.css'
 import Background from './components/Background/background'
-import Circles from './components/Circles/circles'
+// import Circles from './components/Circles/circles'
 // import Tabone from './components/Tabone/tabone'
 
-class App extends React.Component {
-  render () {
-    return (
-      <BrowserRouter>
-        <div>
-          <Background />
-          <Circles />
-        </div>
-      </BrowserRouter>
-    )
-  }
-}
+const App = () => (
+  <BrowserRouter>
+    <div>
+      <Background />
+    </div>
+  </BrowserRouter>
+)
 
 export default App
