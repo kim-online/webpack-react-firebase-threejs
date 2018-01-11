@@ -43,5 +43,8 @@
     "webpack": "^3.10.0",
     "webpack-dashboard": "^1.0.2",
     "webpack-dev-server": "^2.10.0"
+  },
+  "dependencies": {
+    "firebase": "^4.8.1"
   }
 }

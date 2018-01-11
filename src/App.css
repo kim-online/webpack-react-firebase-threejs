@@ -1,17 +1,18 @@
 .one {
   background: linear-gradient(to bottom left , #93E2EF, #6EABB4);
-  top: 60vh;
+  top: 80vh;
   left: 45vw;
 }
 
 .two {
   background: linear-gradient(to bottom , #FEC7CA, #E5B2B5);
-  top: 60vh;
-  left: 50vw;
+  top: 80vh;
+  left: 50%;
+  margin-left: -15px;
 }
 
 .three {
   background: linear-gradient(to bottom right , #FF8D9A, #DC7A86);
-  top: 60vh;
-  left: 55vw;
+  top: 80vh;
+  right: 45vw;
 }
