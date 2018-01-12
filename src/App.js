@@ -15,14 +15,14 @@ const App = () => (
   <Router>
     <div>
       <Background />
-      <Link to="/one"><Circle customStyles={styles.one} /></Link>
-      <Link to="/two"><Circle customStyles={styles.two} /></Link>
-      <Link to="/three"><Circle customStyles={styles.three} /></Link>
+      <Link to='/one'><Circle customStyles={styles.one} /></Link>
+      <Link to='/two'><Circle customStyles={styles.two} /></Link>
+      <Link to='/three'><Circle customStyles={styles.three} /></Link>
 
-      <Route exact path="/" />
-      <Route path="/one" component={First}/>
-      <Route path="/two" component={First}/>
-      <Route path="/three" component={First}/>
+      <Route exact path='/' />
+      <Route path='/one' component={First} />
+      <Route path='/two' component={First} />
+      <Route path='/three' component={First} />
     </div>
   </Router>
 )
