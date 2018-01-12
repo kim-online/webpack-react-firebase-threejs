@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from './first.css'
+import styles from './second.css'
 import React3 from 'react-three-renderer'
 import * as THREE from 'three'
 
 var OrbitControls = require('three-orbit-controls')(THREE)
 
 
-export default class First extends React.Component {
+export default class Second extends React.Component {
   constructor(props) {
     super(props)
     this.cameraPosition = new THREE.Vector3(0,0,100)
@@ -36,7 +36,7 @@ export default class First extends React.Component {
 
   render() {
 
-  	var color = new THREE.Color("rgb(122,186,195)")
+  	var color = new THREE.Color("rgb(122,186,0)")
     const width = window.innerWidth * 0.8 // canvas width
     const height = window.innerHeight * 0.7 // canvas height
     const type = this.props.type
@@ -68,12 +68,14 @@ export default class First extends React.Component {
           <mesh 
             rotation={this.state.cubeRotation}
             position={this.meshPosition}>
-            <icosahedronGeometry radius={50} detail={1} />
+            <torusKnotGeometry
+              radius={50}
+              tube={10}
+              radialSegments={50}
+              tubularSegments={20}
+            />
             <meshPhongMaterial 
               alphaTest={0.5}
-              transparent={true}
-              opacity={0.5}
-              wireframe={true}
               vertexColors={THREE.FaceColors} 
               color={color} />
           </mesh>

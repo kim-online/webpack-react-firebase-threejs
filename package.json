@@ -33,9 +33,9 @@
     "jest": "^22.0.4",
     "normalize.css": "^7.0.0",
     "offline-plugin": "^4.9.0",
-    "react": "^16.2.0",
+    "react": "15.6.1",
     "react-addons-test-utils": "^15.6.2",
-    "react-dom": "^16.2.0",
+    "react-dom": "15.6.1",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "standard": "^10.0.3",
@@ -46,6 +46,9 @@
     "webpack-dev-server": "^2.10.0"
   },
   "dependencies": {
-    "firebase": "^4.8.1"
+    "firebase": "^4.8.1",
+    "react-three-renderer": "^3.2.3",
+    "three": "0.86.0",
+    "three-orbit-controls": "^82.1.0"
   }
 }

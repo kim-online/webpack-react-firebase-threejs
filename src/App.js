@@ -10,6 +10,8 @@ import styles from './App.css'
 import Background from './components/Background/background'
 import Circle from './components/Circles/circles'
 import First from './components/First/first'
+import Second from './components/Second/second'
+import Third from './components/Third/third'
 
 const App = () => (
   <Router>
@@ -20,9 +22,9 @@ const App = () => (
       <Link to="/three"><Circle customStyles={styles.three} /></Link>
 
       <Route exact path="/" />
-      <Route path="/one" component={First}/>
-      <Route path="/two" component={First}/>
-      <Route path="/three" component={First}/>
+      <Route path="/one" component={First} />
+      <Route path="/two" component={Second} />
+      <Route path="/three" component={Third} />
     </div>
   </Router>
 )

@@ -13,6 +13,6 @@ var config = {
   storageBucket: "webpack-react-firebase-threejs.appspot.com",
   messagingSenderId: "586479901249"
 }
-firebase.initializeApp(config);
+firebase.initializeApp(config)
 
 render(<App />, document.getElementById('app'))
