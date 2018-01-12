@@ -2,7 +2,9 @@ import React from 'react'
 import styles from './background.css'
 
 const Background = () => (
-  <div className={styles.background} />
+  <div>
+    <div className={styles.background} />
+  </div>
 )
 
 export default Background
